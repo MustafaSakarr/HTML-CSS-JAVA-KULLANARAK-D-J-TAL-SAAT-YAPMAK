@@ -1,0 +1,44 @@
+body {
+  background-color: #3c444a;
+  background: radial-gradient(ellipse at center,  #4c5e63  0%, #840d0d 70%);
+  background-size: 100%;;
+}
+
+#clock {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+#clock h2 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.clock-contanier {
+  display: flex;
+  flex-direction: row;
+  justify-content: normal;
+  align-items: center;
+}
+
+.clock-item {
+  width: 32%;
+  background-color: lightblue;
+  color: black;
+  border-radius: 10px;
+  margin-right: 5%;
+  padding: 30px;
+  font-size: 40px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+#date {
+    color: black;
+    background-color: #840d0d;
+  font-size: 40px;
+  font-family: 'Share Tech Mono', monospace;
+}
